@@ -14,7 +14,7 @@ function App() {
       if (data.token) {
         console.log("[DEBUG] first run token fetch: ", data.token);
         // check if the token is valid
-        if (data.iat * 1000 - Date.now() < 3000) {
+        if (Date.now() - data.iat * 1000 < 3000) {
           console.log("[DEBUG] token is still valid");
           setAuth(data.token);
         } else {
