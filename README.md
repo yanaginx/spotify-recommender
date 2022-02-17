@@ -12,8 +12,9 @@ SPOTIFY_REDIRECT_URI=<YOUR_SPOTIFY_APPS_REDIRECT_URI>
 JWT_SECRET_KEY=<YOUR_JWT_SECRET_KEY>
 ```
 
-Current issues and TODO:
+Current issues and todos:
 
 - [ ] [ISSUE] Fixing the session cookies containing token (currently testing, expired cookies fixed)
 - [ ] [TODO] Refactor the codebase
 - [ ] [TODO] Improving UI
+- [ ] [TODO] Finish the README
